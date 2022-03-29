@@ -1,0 +1,77 @@
+:root{
+    --primary-color: rgb(214, 98, 55);
+    --primary-color2: seagreen;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container > .msg-container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    /* height: 50vh; */
+}
+
+.main-container > .msg-container > h2,h3{
+    color: white;
+    margin: 1rem;
+    text-shadow: 3px 3px 5px blue, -3px -3px 5px blue;
+}
+
+.main-container > .msg-container > form{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.main-container .msg-container > form > #message-input{
+    outline: none;
+    height: 2rem;
+    font-size: 1.2rem;
+    padding: 0rem 0.4rem;
+    border: none;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+
+.main-container .msg-container > form > input[type='submit']{
+    width: 6rem;
+    padding: 0.8rem 0.5rem;
+    margin: 1.2rem 0rem;
+    background-color: var(--primary-color2);
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.main-container .msg-container > form > input[type='submit']:hover{
+    background-color: rgb(19, 112, 59);
+    cursor: pointer;
+}
+
+
+.main-container .msg-container > #link-input{
+    outline: none;
+    height: 2rem;
+    font-size: 1.2rem;
+    padding: 0rem 0.4rem;
+    border: none;
+    margin: 1rem;
+}
