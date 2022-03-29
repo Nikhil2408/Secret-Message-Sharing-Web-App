@@ -10,7 +10,7 @@
     <title>Secret Message App</title>
 </head>
 <body>
-    <div class="main-container">
+    <div id="message-link-container" class="main-container">
         <div class="msg-container">
             <h2>Enter Your Secret Message<i class="fa-solid fa-face-shush"></i> </h2>
             <form action="">
@@ -21,12 +21,16 @@
             <input id="link-input" type="text" placeholder = "Sharable Link">
         </div>
 
-
-
-
         <!-- <footer id="footer">
             Made with :heart: by Nikhil Bansal
         </footer> -->
+    </div>
+
+    <div id="decrypted-message-container" class="main-container hide">
+        <div class="msg-container">
+            <p></p>
+            <a href="http://127.0.0.1:5500/index.html">Create your own secret message</a>
+        </div>
     </div>
 
     <script src="app.js"></script>

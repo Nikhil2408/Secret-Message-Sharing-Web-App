@@ -75,3 +75,30 @@ body{
     border: none;
     margin: 1rem;
 }
+
+
+#decrypted-message-container > .msg-container
+{
+    border: 1px solid white;
+    margin: 1rem;
+}
+
+#decrypted-message-container > .msg-container > p
+{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    word-wrap: break-word;
+}
+
+#decrypted-message-container > .msg-container > a
+{
+    text-decoration: none;
+    color: blue;
+    padding: 1rem;
+}
+
+
+.hide{
+    display: none;
+}
